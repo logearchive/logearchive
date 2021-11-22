@@ -140,3 +140,61 @@ a:hover
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
 }
+
+ --- STRONA GŁÓWNA ---
+	.glowna {
+		
+	}
+
+	#shop {
+		left: 14%;
+		top: 488px;
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Garamond;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+		text-decoration:none;
+	}
+	#aboutus {
+		left: 14%;
+		top: 540px;
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Garamond;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	#contact {
+		left: 14%;
+		top: 592px;
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Garamond;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+	}
+	#terms {
+		left: 14%;
+		top: 644px;
+		position: absolute;
+		overflow: visible;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Garamond;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
