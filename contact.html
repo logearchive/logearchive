@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="stylesheet" href="style3.css" />
+                <title>Contact</title>
+        </head>
+        <body>
+                <div class="burger-box" onclick="showMenu()">
+                        <div class="small-burger"></div>
+                        <div class="small-burger"></div>
+                        <div class="small-burger"></div>
+                </div>
+                <div class="main-box">
+                        <p>In case of any inquries, email us.</p>
+                        <p class="email" onclick="copyToClip()">contact@logearchive.pl</p>
+                </div>
+
+                <div class="menu">
+                        <ul>
+                                <li><a href="https://www.logearchive.pl/">home</a></li>
+                                <li><a href="https://shop.logearchive.pl/">shop</a></li>
+                                <li><a href="https://www.logearchive.pl/aboutus">about us</a></li>
+                                <li><a href="https://www.logearchive.pl/contact">contact</a></li>
+                                <li><a href="https://www.logearchive.pl/terms">terms</a></li>
+                        </ul>
+                        <button onclick="closeMenu()"></button>
+                </div>
+                <script
+                        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+                        integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+                        crossorigin="anonymous"
+                        referrerpolicy="no-referrer"
+                ></script>
+                <script src="app.js"></script>
+        </body>
+</html>
